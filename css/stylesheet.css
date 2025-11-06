@@ -1,0 +1,574 @@
+* {
+	
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+
+}
+
+body {
+	
+	width: 1903px;
+	font-weight : 400;
+
+}
+
+
+
+/*     Logo with navigation bar      */
+
+header {
+	
+	background:#0b172a;
+	height : 82px;
+	width : 100%;
+	border-bottom:2px solid #BC4123;
+
+}
+
+
+.container {
+	
+	background:#0b172a;
+	width: 1400px;
+	height : 80px;
+	margin : 0 auto;
+	
+}
+
+.logo {
+	
+	margin-top:45px;
+	height : 80px;
+	width : 200px;
+	float : left;
+	
+}
+
+nav {
+	
+	float:right;
+	
+}
+
+
+nav ul {
+
+	list-style: none;
+	margin : 0;
+	padding : 0;
+
+}
+
+
+nav li {
+
+	display:inline-block;
+	margin-left: 50px;
+	padding-top:25px;
+	position:relative;
+	
+}
+
+nav  a {
+	
+	text-decoration:none;
+	font-size : 15pt;
+	color:white;
+	text-transform:uppercase;
+	
+}
+
+nav a:hover {
+	
+	color:#BC4123;
+	
+}
+
+nav li a:before {
+	
+	content : "";
+	display : block;
+	height: 5px ;
+	width: 0%;
+	background-color: #BC4123;
+	position:relative;
+	transition : all ease-in-out 250ms;
+	
+}
+
+nav li a:after {
+	
+	content : "";
+	display : block;
+	height: 5px ;
+	width: 0%;
+	background-color: #BC4123;
+	position:relative;
+	transition : all ease-in-out 250ms;
+	
+}
+
+
+nav li a:hover::before {
+
+	width:100%;
+
+}
+
+nav li a:hover::after {
+
+	width:100%;
+
+}
+/* -----------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------*/
+
+								/*    		  Homepage with photo and text 	     */		
+
+.profile {
+	
+	width:1242;
+	height:621px;
+	background-color:black;
+	margin:auto;
+
+}
+
+.ichbin {
+
+	padding-top:45px;
+	margin:auto;
+	font-size:35px;
+	color:#bfbfbf;
+	text-align:center;
+
+}
+.home {
+	
+	width: 1903px;
+	height:800px;
+	background-position:center;
+	background-image: url("../img/image.jpg");
+	background-size:cover;
+	
+}
+	
+.bg {
+
+	width: 1903px;
+	height:800px;
+	background-position:center center;
+	background-image: url("../img/bg.png");
+	background-size:cover;
+
+}	
+
+.bg-form {
+	
+	width: 1903px;
+	height:800px;
+	background-color:#0b172a;
+	
+}
+
+
+
+.content {
+
+	width :1400px;
+	height:800px;
+	margin : auto;	
+	
+}
+.page {
+	
+	padding-top:142px;
+	width :1008px;
+	height:500px;
+	margin : auto;	
+
+}
+
+.text p {
+	
+	padding-top:25px;
+	padding-left:38px;
+	padding-right:38px;
+	font-size:20px;
+	color:#bfbfbf;
+	word-spacing:8px;
+
+}
+
+.downloads-d {
+
+	margin:auto;
+	display:block;
+	width:500px;
+	height:500px;
+
+	
+}
+
+.downloads-d p {
+	
+	padding-top:15px;
+	color:#bfbfbf;
+	font-size:20px;
+	padding-bottom:8px;
+
+	
+}
+
+.downloads-d ol li {
+	
+	padding-top:5px;
+	list-style-position:inside;
+	font-size:20px;
+	color:#bfbfbf;
+	
+	
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------------------------Steckbrief------------------------------------------------------*/
+
+.steckbrief {
+	
+	color:#bfbfbf;
+	text-align:center;
+	padding-top:55px;
+	font-size: 40px;
+	
+}
+
+table  {	
+
+	width:900px;
+	padding-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+	
+	
+}
+
+td , tr {
+	
+	
+	background-color:#0b172a;
+	border-collapse:collapse;
+	border:1px solid #BC4123;
+	color:#bfbfbf;
+
+	
+}
+
+.td1 {
+	width:40px;
+	height:40px;
+	text-align:center;
+}
+
+.td2 {
+	padding-left:10px;
+	width:300px;
+	height:40px;
+	margin:auto;
+
+}
+.td3 {
+	width:750px;
+	height:40px;
+	text-align:center;
+}
+.td4 {
+	width:200px;
+	height:40px;
+	text-align:center;
+}
+
+ a {
+	text-decoration:none;
+	color:#BC4123;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------Personal photo with text on the right----------------------------------------*/
+
+.qais {
+
+	border-bottom-left-radius:200px;
+	width:500px;
+	height:500px;
+	display:inline-block;
+	border:2px solid #BC4123
+	
+}
+.text {
+	padding-left:2px;
+	background-color:#0b172a;
+	width:500px;
+	height:500px;
+	float:right;
+	margin:auto;
+	border-bottom:2px solid #BC4123;
+	border-top:2px solid #BC4123;
+
+	border-right:2px solid #BC4123;
+	
+	
+}
+
+
+/*    	 		  Logo with Mind Map 	     */
+
+.m_logo {
+
+	height : 86px;
+	width : 216px;
+	position:absolute;
+	top:445px;
+	left:835px;
+	z-index:6;
+
+}
+
+
+
+
+
+
+
+
+#map {
+	position:absolute;
+	display:none;
+	height : 800px;
+	width : 1400px;
+	top:90px;
+	left:248px;
+	z-index:5;
+
+}
+
+/*            	  Impressum              */
+
+.text-container {
+
+	padding-top:150px;
+	margin:auto;
+	width:250px;
+	height:470px;
+	margin:auto;
+
+}
+
+
+
+.text-container h1 {
+
+	font-size:40px;
+	color:white;
+
+}
+
+.text-container p {
+
+	font-size : 15pt;
+	padding-top: 8px;
+	padding-bottom:8px;
+	color:#BC4123;
+
+}
+
+/*    	 		  Contact form 	    	 */
+
+.form-container {
+
+	padding-top:150px;
+	margin:auto;
+	width:500px;
+	height:470px;
+	margin:auto;
+
+}
+
+
+textarea:focus, input:focus {
+	
+	padding:5px;
+    color: #BC4123;
+	
+}
+
+.form-container h1 {
+
+	text-align:center;
+	font-size:40px;
+	color:#bfbfbf;
+
+}
+
+.form-container p {
+
+	font-size : 15pt;
+	padding-top: 8px;
+	padding-bottom:8px;
+	color:#bfbfbf;
+
+}
+
+
+
+form input {
+	
+	padding:5px;
+	width:490px;
+	height: 23px;
+	background-color:#10213c;
+	border:1px solid #BC4123;
+	color : #BC4123;
+	font-size:15px;
+
+}
+
+.k-kontakt {
+
+	width:490px;
+	height: 100px;
+	background-color: #10213c;
+	border:1px solid #BC4123;
+	color:#BC4123;
+	padding:5px;
+	font-size:15px;
+
+}
+.submit {
+
+	padding-top:8px;
+
+}
+
+.submit input {
+
+	background-color: #0a1629;
+	width:502px;
+	height: 35px;
+	color:#bfbfbf;
+	font-size:20px;
+	border:1px solid #BC4123;
+
+}
+
+.submit input:hover {
+
+	background-color:#0b172a ;
+	color:#BC4123;
+
+}
+
+
+
+/*    			 Info bar			     */
+
+
+.placeover {
+
+	height : 45px;
+	width : 1000px;
+	background-color : #0b172a;
+	position : absolute ;
+	top : 860px;
+	left : 451px;
+	border-radius : 25px;
+	border:2px solid #BC4123
+
+}
+
+
+
+.placeover p {
+
+	text-align:center;
+	padding-top:11px;
+	font-size:20px;
+	color:#bfbfbf;
+
+}
+
+
+
+/*     			  Footer			     */
+
+
+
+footer {
+
+	border-top : 2px solid #BC4123;
+	height:200px;
+	background-color:#0e0b0d;
+	float:bottom;
+
+}
+
+.impressum {
+	
+	width:210px;
+	height:35px;
+	margin-top:65px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.impressum a{
+	
+	padding-left:45px;
+	color:#BC4123;
+	font-size:20px;
+	
+}
+
+.impressum a:hover{
+	
+	color:white;
+	
+}
+
+
+.social ,a {
+	
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:190px;
+	height:35px;
+	text-decoration:none;
+	
+}
+
+.social img:hover {
+	
+	opacity:20%;
+
+}
+
+.social ul li{
+	
+	list-style:none;
+	display:inline-block;
+	padding-right:20px;
+	
+}
+
+footer img {
+	
+	width:40px;
+	height:40px;	
+	
+}
