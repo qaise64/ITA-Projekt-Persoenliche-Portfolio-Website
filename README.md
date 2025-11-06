@@ -2,16 +2,16 @@
 
 Hallo! Dies ist eine Website, die ich im ersten Jahr meiner Ausbildung zum Informationstechnischen Assistenten (ITA) erstellt habe.
 
-Das Ziel war es, ein komplettes Web-Development-Projekt von Grund auf zu konzipieren und umzusetzen.
+Das Ziel war es, ein Web-Development-Projekt von Grund auf zu konzipieren und umzusetzen.
 
 **WICHTIG:** Sie koennen sich das Projekt hier live ansehen:
 **[Live-Demo (geoeffnet mit GitHub Pages)](https://DEIN-BENUTZERNAME.github.io/ita-projekt-persoenliche-website)**
 
 ## Projekt-Uebersicht
 
-Das Projekt war mehr als nur das Coden, es umfasste den gesamten Prozess:
+Das Projekt umfasste folgende Schritte:
 1.  **Design:** Erstellung eines eigenen Logos ("qais") und eines einheitlichen Dark-Mode-Designs.
-2.  **Entwicklung:** Aufbau einer kompletten Multi-Page-Website.
+2.  **Entwicklung:** Aufbau einer Multi-Page-Website.
 
 ### Enthaltene Technologien:
 
@@ -21,4 +21,4 @@ Das Projekt war mehr als nur das Coden, es umfasste den gesamten Prozess:
 
 ### Hinweis zum Projekt-Kontext:
 
-Dies war ein fruehes Projekt, um die Grundlagen von Web Development und Design zu erlernen. Der Fokus lag auf einer sauberen Struktur und der Desktop-Ansicht. Die Seite ist daher **nicht** fuer mobile Endgeraete optimiert (nicht responsiv).
+Dies war ein fruehes Projekt, um die Grundlagen von Web Development und Design zu erlernen. Der Fokus lag auf der Desktop-Ansicht. Die Seite wurde speziell fuer eine **Aufloesung von 1920 x 1080** entwickelt und ist daher **nicht** fuer mobile Endgeraete optimiert (nicht responsiv).
