@@ -1,6 +1,6 @@
 # ITA-Projekt: Persoenliche Portfolio-Website
 
-Hallo! Dies ist eine Website, die ich im ersten Jahr meiner Ausbildung zum Informationstechnischen Assistenten (ITA) erstellt habe.
+Dies ist eine Website, die ich im ersten Jahr meiner Ausbildung zum Informationstechnischen Assistenten (ITA) erstellt habe.
 
 Das Ziel war es, ein Web-Development-Projekt von Grund auf zu konzipieren und umzusetzen.
 
