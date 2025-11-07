@@ -5,7 +5,7 @@ Dies ist eine Website, die ich im ersten Jahr meiner Ausbildung zum Informations
 Das Ziel war es, ein Web-Development-Projekt von Grund auf zu konzipieren und umzusetzen.
 
 **WICHTIG:** Sie koennen sich das Projekt hier live ansehen:
-**[Live-Demo (geoeffnet mit GitHub Pages)](https://DEIN-BENUTZERNAME.github.io/ita-projekt-persoenliche-website)**
+**[Live-Demo (geoeffnet mit GitHub Pages)](https://qaise64.github.io/ita-projekt-portfolio-website/)**
 
 ## Projekt-Uebersicht
 
